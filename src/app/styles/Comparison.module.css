@@ -1,0 +1,102 @@
+/* Comparison.module.css */
+
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem; /* Gleiche Schriftgröße wie in Home.module.css */
+  text-align: center;
+  color: #333; /* Ändern Sie die Farbe des Titels */
+}
+
+.subtitle { /* Neues Styling für die Überschrift */
+  margin: 2rem 0 1rem;
+  line-height: 1.5;
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+.table {
+  width: 100%; /* Machen Sie die Tabelle breiter */
+  max-width: 1000px; /* Erhöhen Sie die maximale Breite der Tabelle */
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.table th,
+.table td {
+  padding: 1rem; /* Erhöhen Sie die Polsterung */
+  border: 1px solid #eaeaea;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f5f5f5;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #0070f3;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #005bb5;
+}
+
+.explanation {
+  font-size: 0.8rem; /* Kleinerer Text für die Erklärung */
+  margin: 1rem 0; /* Weniger Abstand */
+  text-align: center; /* Zentrieren Sie den Text */
+  max-width: 800px;
+  line-height: 1.5; /* Zeilenabstand */
+}
+
+.pieChartsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.pieChartsContainer > div {
+  flex: 1 1 200px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.pieChartTitle {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #333;
+  font-weight: normal;
+}

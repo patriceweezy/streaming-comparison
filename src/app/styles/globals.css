@@ -1,0 +1,27 @@
+/* globals.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  animation: backgroundChange 30s infinite alternate;
+}

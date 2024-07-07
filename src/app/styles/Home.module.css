@@ -1,0 +1,89 @@
+/* Home.module.css */
+
+.container {
+  padding: 0 2rem;
+  animation: backgroundChange 15s infinite alternate;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 4rem;
+  text-align: center;
+  color: #000000;
+}
+
+.subtitle {
+  margin: 0;
+  line-height: 3;
+  font-size: 2rem;
+  color: #1b0202;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 50%; /* Ändern Sie diesen Wert, um die Anzahl der Spalten anzupassen */
+  padding: 1.5rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #000000;
+  border-color: #000000;
+}
+
+.logo {
+  width: 250px;  /* Feste Breite */
+  height: 250px; /* Feste Höhe */
+  object-fit: contain; /* Das Bild proportional skalieren */
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #0070f3;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #005bb5;
+}
+
+.largeButton { /* Neues Styling für den großen Button */
+  display: inline-block;
+  padding: 0.75rem 1.5rem; /* Größere Polsterung */
+  font-size: 1.25rem; /* Größere Schriftgröße */
+  background-color: #8a7d78; /* Andere Hintergrundfarbe für den großen Button */
+}
